@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RevGuard Team Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">💻 RevGuard Team</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="section-title">Meet Our Team</h2>
+    <div class="row justify-content-center" id="team-container"></div>
+
+	
+	<h2 class="section-title">Skills</h2>
+<div class="skills-scroll-container">
+  <div class="skills-container" id="skills-container"></div>
+</div>
+
+    <h2 class="section-title">Projects</h2>
+    <div class="row justify-content-center" id="projects-container"></div>
+
+    <h2 class="section-title">Group Project</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center mb-5">
+        <div class="card p-4 projects-card">
+          <h4>🍽️ RJ AND A CATERING SERVICES</h4>
+          <p>A web-based catering reservation and management system.</p>
+          <a href="https://azi1408.github.io/recentproject/" target="_blank" class="btn btn-github">
+            <i class="fab fa-github"></i> View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile Modal -->
+  <div class="modal fade" id="profile-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center p-4">
+          <img id="modal-avatar" class="rounded-circle border border-primary mb-3" width="120" height="120">
+          <h3 id="modal-name"></h3>
+          <p id="modal-role" class="text-muted mb-4"></p>
+          <div class="d-flex justify-content-center">
+            <button id="modal-github" class="btn btn-github me-2">
+              <i class="fab fa-github"></i> GitHub Profile
+            </button>
+            <button id="modal-portfolio" class="btn btn-portfolio">
+              <i class="fas fa-globe"></i> Portfolio
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center">
+    <div class="container">
+      <p>&copy; 2025 RevGuard. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./scripts/team-data.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
