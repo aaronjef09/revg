@@ -46,7 +46,7 @@ const team = [
   },
   {
     username: "johnzed899",
-    name: "John Zed",
+    name: "John Zedrick De Luna",
     role: "DevOps Engineer",
     github: "https://github.com/johnzed899",
     portfolio: "https://johnzed899.github.io",
